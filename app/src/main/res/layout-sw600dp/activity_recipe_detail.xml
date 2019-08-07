@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".ui.RecipeDetail"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/masterlist_linear_layout_tablet"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/ingredient_card"
+            android:layout_margin="15dp"
+            android:elevation="32dp">
+
+            <TextView
+                android:id="@+id/tv_ingredients_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/ingredients_label"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:id="@+id/master_list_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/step_ingr_fragment"
+        android:layout_width="600dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+

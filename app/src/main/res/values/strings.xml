@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <string name="recipe_name_holder_testing">Recipe Name</string>
+
+    <string name="recipe_master_item_testing">Recipe Item</string>
+
+    <string name="recipe_master_item_ingredient">Recipe Ingredients</string>
+
+    <string name="recipe_url">
+        https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json
+    </string>
+
+    <string name="media_card_placeholder">Media Player</string>
+
+    <string name="description_card_placeholder">Description</string>
+
+    <string name="ingredients_placeholder">
+        Lorem ipsum dolor sit amet, nostrud graecis delicata ut pri, commodo invenire intellegat no vim. Ex porro tacimates qui. His dolores mentitum ei, illud fabellas lucilius an mel. Duo electram contentiones no.Duo ei sint albucius. Vel ancillae scaevola in, usu ea delicata accommodare theophrastus. Duo id primis vivendo, ut nam dolores mediocrem, pro eius clita periculis no. Tota virtute moderatius ea vix. Eu cibo cotidieque qui. Nec justo efficiantur in, ex mel euismod luptatum sadipscing.
+    </string>
+
+    <string name="previous_step_text">PREVIOUS</string>
+
+    <string name="next_step_text">NEXT</string>
+
+    <string name="ingredients_label">Ingredients</string>
+
+    <string name="error_message_detail">
+        An error has occurred. Please try again by going back.
+    </string>
+
+    <string name="error_message">
+        An error has occurred. Please try again by refreshing.
+    </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>
