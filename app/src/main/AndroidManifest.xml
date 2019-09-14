@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.bakingapp">
+    package="baking.example.android.bakingapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,7 +13,7 @@
         android:roundIcon="@drawable/cupcake_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <receiver android:name=".BakingWidgetProvider">
+        <receiver android:name="baking.example.android.bakingapp.BakingWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -23,11 +23,11 @@
                 android:resource="@xml/baking_widget_provider_info" />
         </receiver>
 
-        <service android:name=".GetIngredientsService" />
+        <service android:name="baking.example.android.bakingapp.GetIngredientsService" />
 
-        <activity android:name=".ui.StepIngrDetail" />
-        <activity android:name=".ui.RecipeDetail" />
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="baking.example.android.bakingapp.ui.StepIngrDetail" />
+        <activity android:name="baking.example.android.bakingapp.ui.RecipeDetail" />
+        <activity android:name="baking.example.android.bakingapp.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
